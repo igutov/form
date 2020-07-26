@@ -20,24 +20,28 @@
 <body>
   <div class="container col-12 col-sm-8 col-md-6">
     <h2>Checkout</h2>
-    <h4>Products</h4>
-    <ul class="lists">
-      <li>
-        <a href="">Lorem ipsum dolor sit amet consectetur.</a>
-        <p>$499.00</p>
-      </li>
-      <li>
-        <a href="">Lorem ipsum dolor sit.</a>
-        <p>$130.00</p>
-      </li>
-    </ul>
-    <h4>Shipping method</h4>
-    <ul class="lists">
-      <li>
-        <p>FedEx</p>
-        <p>$13.00</p>
-      </li>
-    </ul>
+    <div>
+      <h4>Products</h4>
+      <ul class="lists">
+        <li>
+          <a href="">Lorem ipsum dolor sit amet consectetur.</a>
+          <p>$499.00</p>
+        </li>
+        <li>
+          <a href="">Lorem ipsum dolor sit.</a>
+          <p>$130.00</p>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h4>Shipping method</h4>
+      <ul class="lists">
+        <li>
+          <p>FedEx</p>
+          <p>$13.00</p>
+        </li>
+      </ul>
+    </div>
     <h4>Paymant method</h4>
     <ul class="nav">
       <li class="nav-item">
