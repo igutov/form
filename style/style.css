@@ -1,0 +1,103 @@
+.content_form {
+  padding: 0;
+}
+.content_form li {
+  display: none;
+}
+.content_form li:target {
+  display: block;
+}
+.lists {
+  padding-left: 20px;
+}
+.lists li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav li {
+  display: flex;
+  width: calc(100% / 3.2);
+  text-align: center;
+  align-self: stretch;
+}
+.nav li a {
+  font-weight: bold;
+  color: #007bff;
+  padding: 5px;
+}
+form {
+  position: relative;
+}
+form div {
+  padding: 2%;
+}
+form button {
+  background-color: #FF4100;
+}
+form fieldset label {
+  margin-bottom: 5px;
+  font-size: 11pt;
+  font-weight: bold;
+}
+form fieldset label::after {
+  content: " *";
+  color: red;
+}
+form fieldset .cart_number {
+  display: flex;
+  flex-direction: column;
+}
+form fieldset .split {
+  display: flex;
+  margin: auto;
+  padding: 0;
+}
+form fieldset .split p {
+  margin: auto 0;
+}
+form fieldset .split input {
+  width: 3em;
+}
+form fieldset input {
+  border: 1.5px solid #b8b8b9;
+  padding: 5px;
+}
+form .verification_code_input div {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+form .verification_code_input div input {
+  position: relative;
+  align-items: center;
+  width: 10em;
+  padding-right: 30px;
+  width: max-content;
+}
+form .verification_code_input div div {
+  position: absolute;
+  margin-left: 58px;
+  width: 20px;
+  height: 20px;
+  background-color: #bdbdbd;
+  border-radius: 50%;
+}
+form .verification_code_input div div p {
+  margin: auto;
+  font-size: 11pt;
+  font-weight: bold;
+}
+.accept {
+  border: 1.5px solid #c2c2c2;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+.front {
+  border-radius: 5px;
+  border: 1px solid #e9e9e9;
+}
